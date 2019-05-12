@@ -61,9 +61,12 @@
             &=\frac{\lambda^{k}}{k!}e^{-\lambda},k=0,1\cdots
            \end{aligned}
         $$
-        usually $n\ge20,p\le0.05$
+        usually $n\ge20,p\le0.05$  
 
-4. Normal distribution:  
+4. Law of large numbers:  
+   It does not mean that when you 'fail' many many times the next will be 'success', the probability of 'fail' and 'success' is fixed for every experiment you conduct, cause you the next time you get 'fail' or success is based on a conditional probability like $P(A|B)=\frac{P(AB)}{P(B)}$, $P(AB)$ is the probability you 'fail' again and $P(B)$ is the probability that you fail so many times you have already get. What it reveals is after infinite times of experiments, the whole large enough experiments will gradually 'dilute' the effect of those experiment you have already done, since you have infinite times to do the experiment, no matter how odd the result you have gained, the average will definitely approach to the expectation.
+
+5. Normal distribution:  
       normal distribution is a continuous distribution, which means 'k' in b-distribution can be 'any' value.
       - $p(x)=\frac{1}{\sigma\sqrt{2\pi}}\exp(-\frac{(x-\mu)^2}{2\sigma^2})$  
     
