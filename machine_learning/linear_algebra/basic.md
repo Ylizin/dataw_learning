@@ -3,10 +3,13 @@ $I$ Identity matrix(单位矩阵)
 $I\cdot A=A$  
 $A\cdot I=A$
 
+when calculating a detaminate(行列式), we can do row and coloumn swap and calculate without changing the final result of the result.  
+but if we swap a row or a coloumn we should multiply an (-1) before the result.
+
 so:  
 $A^{-1} A=I$ as well as $A A^{-1}=I$  
 $A^{-1}=\frac{1}{|A|} A^*$ ,$A^*$ is the adjugate([伴随](https://baike.baidu.com/item/%E4%BC%B4%E9%9A%8F%E7%9F%A9%E9%98%B5/10034983?fr=aladdin)) matrix  
-$for i,j in matrix A^{*}_{i,j},A_{i,j}=(-1)^{i+j}M_{i,j},$
+for i,j in matrix $A^{*}_{i,j},A_{i,j}=(-1)^{i+j}M_{i,j},$
 $M_{i,j}$ is cofactor(余子式) $A_{i,j}$ is Algebraic cofactor([代数余子式](https://baike.baidu.com/item/%E4%BB%A3%E6%95%B0%E4%BD%99%E5%AD%90%E5%BC%8F/6266940))
 
 there is another way to calculate the inverse matrix  
@@ -16,7 +19,7 @@ $$\left( \begin{array}{ccc|ccc}
     1&1&1&0&0&1
 \end{array} \right)$$
 
-as long as you make the left hand into identity matrix. **Remember it use row operation only.** essentially it repersent a series matrices which corresponds to the operation.  
+as long as you make the left hand into identity matrix. **It's different from calculating a detanimate**, and we can not use coloumn operation and swap, essentially **it repersent a series matrices which corresponds to the operation**.  
 
 apply matrix to solve the equations:  
 $A\cdot x=b$ where $A$ is the matrix of coefficient and x is the vector of variables like $(x,y,z)$
