@@ -29,6 +29,78 @@ what if $|A|=0$, it means it is a [**singular matrix(奇异矩阵)**](https://ba
 ![singular property][singular] 
 
 
+1. Represent a line:  
+$$
+    L =\{ \begin{bmatrix}
+        0\\
+        3
+    \end{bmatrix} + t
+    \begin{bmatrix}
+        -2\\2
+    \end{bmatrix}
+    \}
+$$
+so this is a line through (0,3) and has a dirrection of (-2,2). This way of representation corresponds to the **parametric equation(参数方程)** and the direction vector can be normalized.  
+
+2. Linear Dependence:  
+    set of vectors: $S=\{v_1,v_2,v_3,\cdots,v_n\}$  
+    if and only if: $c_1*v_1+c_2*v_2+\cdots+c_n*v_n=\vec{0}$, where $c_i$ not all 0 at same time.
+
+3. dot product:  
+    satisfy "associative(结合律)" "distributive(分配律)""commutative(交换律)"
+
+4. Cauchy Inequality：  
+   $\|a\|\cdot \|b\| \ge \|a\cdot b\|$
+
+5. Triangle ineuqality:  
+    $\|x+y\| \le \|x\|+\|y\|$
+
+6. cross product:  
+   it's defined only in $\mathbb{R}^3$  
+   $$
+        a = \begin{bmatrix}
+            a_1 \\ a_2 \\ a_3
+        \end{bmatrix}
+        b = \begin{bmatrix}
+            b_1 \\ b_2\\b_3
+        \end{bmatrix}
+   $$
+   $$a \times b = \begin{bmatrix}
+       a_2b_3 - a_3b_2 \\ 
+       a_3b_1-a_1b_3 \\ 
+       a_1b_2 - a_2b_1
+   \end{bmatrix}$$
+   $$
+    \|a \times b\| = 
+       \|a\|\|b\|\cdot sin\theta
+   $$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
