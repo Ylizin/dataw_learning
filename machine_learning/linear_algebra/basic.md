@@ -6,8 +6,23 @@ $A\cdot I=A$
 when calculating a detaminate(行列式), we can do row and coloumn swap and calculate without changing the final result of the result.  
 but if we swap a row or a coloumn we should multiply an (-1) before the result.
 
+$$E_{21}=
+    \begin{bmatrix}
+        1&0&0\\k&1&0\\0&0&1
+    \end{bmatrix}
+$$
+it means that $E_{21}A$ will multiply the row '1' of A with k and add to the row '2'   
+$$P=
+    \begin{bmatrix}
+        1&0&0\\0&0&1\\0&1&0
+    \end{bmatrix}
+$$
+it is an exchange matrix, it exchanged the row of $I$, and it will echange the rows of $A$   
+
+
+
 so:  
-$A^{-1} A=I$ as well as $A A^{-1}=I$  
+$A^{-1} A=I$ as well as $A A^{-1}=I$  and if A is a square matrix then $A^{-1}A=A A^{-1}=I$  
 $A^{-1}=\frac{1}{|A|} A^*$ ,$A^*$ is the adjugate([伴随](https://baike.baidu.com/item/%E4%BC%B4%E9%9A%8F%E7%9F%A9%E9%98%B5/10034983?fr=aladdin)) matrix  
 for i,j in matrix $A^{*}_{i,j},A_{i,j}=(-1)^{i+j}M_{i,j},$
 $M_{i,j}$ is cofactor(余子式) $A_{i,j}$ is Algebraic cofactor([代数余子式](https://baike.baidu.com/item/%E4%BB%A3%E6%95%B0%E4%BD%99%E5%AD%90%E5%BC%8F/6266940))
