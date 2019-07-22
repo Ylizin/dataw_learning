@@ -8,7 +8,7 @@ It tells us we could start off with **any** distribution that has a well-defined
 
 2. Samples mean and variance:  
    $\mu_{\bar{x}}=\mu$  
-   $\sigma_{\bar{x}}=\frac{\sigma^2}{n}$  
+   $\sigma_{\bar{x}}^2=\frac{\sigma^2}{n}$  
    here when the $\sigma^2$ is not easy to get we can use $S^2=\sigma^2$ where $S^2 =\frac{SUM}{N-1}$
 
 3. Bernoulli Distribution:  
